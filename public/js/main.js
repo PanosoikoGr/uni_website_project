@@ -7,8 +7,8 @@ document.querySelectorAll('nav ul li a, .cta-btn').forEach(anchor => {
         // Scroll to the section smoothly
         const targetSection = document.querySelector(this.getAttribute('href'));
         targetSection.scrollIntoView({
-            behavior: 'smooth',   // Enable smooth scrolling
-            block: 'start'        // Align to the start of the section
+            behavior: 'smooth',
+            block: 'start'
         });
     });
 });
@@ -21,7 +21,7 @@ themeToggleBtn.addEventListener('click', function () {
 
 // Contact Form Submission and Message Storage
 document.getElementById('contact-form')?.addEventListener('submit', function (e) {
-    e.preventDefault(); // Prevent form submission from refreshing the page
+    e.preventDefault();
 
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
