@@ -39,7 +39,7 @@ nav {
     font-size: 16px;
 }
 
-.theme-toggle {
+.log-in {
     background-color: #f39c12;
     color: white;
     border: none;
@@ -170,4 +170,17 @@ form button:hover {
 
 input:invalid, textarea:invalid {
     border-color: red;
+}
+
+/* Style for the messages on the messages page */
+#messages-container {
+    padding: 20px;
+}
+
+.message {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }

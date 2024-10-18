@@ -14,9 +14,9 @@ document.querySelectorAll('nav ul li a, .cta-btn').forEach(anchor => {
 });
 
 // Dark Mode Toggle
-const themeToggleBtn = document.getElementById('theme-toggle');
-themeToggleBtn.addEventListener('click', function () {
-    document.body.classList.toggle('dark-mode');
+document.getElementById('log-in').addEventListener('click', function() {
+    // Redirect to the login page
+    window.location.href = 'login.html';
 });
 
 // Contact Form Submission and Message Storage
